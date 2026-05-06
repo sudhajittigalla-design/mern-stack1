@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Practice</title>
+    <style>
+        #main-banner {
+            height: 200px;
+            width: 100%;
+            border: 10px solid black;
+            background-color: gold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .info-box {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            margin: 10px;
+            background-color: lightblue;
+            display: inline-block; 
+            vertical-align: top;
+        } 
+        p {
+            font-size: 20px;
+            border-left: 10px solid red;
+            color: darkgrey;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task1 </h1>
+    <div id="main-banner">
+        Welcome to the Identity Banner
+    </div>
+    <h1>Task2 </h1>
+    <div class="info-box">Status Card 1: Processing...</div>
+    <div class="info-box">Status Card 2: Active</div>
+    <div class="info-box">Status Card 3: Complete</div>
+    <h1>Task3 </h1>
+    <p>Hello World! This is the first global paragraph.</p>
+    <p>Notice how every single paragraph gets the red left border.</p>
+    <p>Changing the 'p' selector updates all of these at once.</p>
+    <p>Standardized text styling made easy!</p>
+
+</body>
+</html>
